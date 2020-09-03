@@ -244,7 +244,7 @@ public class FaceManager implements BiometricAuthenticator, BiometricFaceConstan
         }
     }
 
-   /**
+    /**
      * Request face authentication enrollment. This call operates the face authentication hardware
      * and starts capturing images. Progress will be indicated by callbacks to the
      * {@link EnrollmentCallback} object. It terminates when
@@ -296,7 +296,6 @@ public class FaceManager implements BiometricAuthenticator, BiometricFaceConstan
             }
         }
     }
-
 
     /**
      * Request face authentication enrollment. This call operates the face authentication hardware
